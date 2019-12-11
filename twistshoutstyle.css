@@ -1,0 +1,131 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 1024px;
+	height: 770px;
+	background-image: url("img/bluestripes.png");
+	background-position:center;
+background-repeat:repeat;
+}
+
+.img {
+	align-content: center top;
+	}
+.row img {
+	position: relative;
+	margin-right: -250px;
+	top: -125px;
+	left: 0px;
+	height: 500px;
+	float: right;
+	padding: 5px;
+	}
+#greybox {
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	height: 540px;
+	width: 100%;
+	background-color: rgba(46,46,46,0.75)
+	}
+ 
+.nav ul {
+  list-style:none;
+  position: relative;
+  top: -620px;
+  left: 250px;
+  float:left;
+}
+.nav li {
+  display: inline-block;
+  width: 120px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 12px;
+  font-style:normal;
+  line-height: 40px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #010101;
+  display: block;
+  transition: .3s
+
+}
+ 
+.nav a:hover {
+  background-color: rgba(245,142,195,0.75);
+}
+ 
+.nav a.active {
+  background-color:rgba(245,142,195,0.75);
+  color: #000;
+  cursor: default;
+}
+.featured { 
+font-family: 'Bebas Neue', sans-serif;
+position: relative;
+font-size: 35px;
+top: -55px;
+left: 200px;
+color:rgba(229,102,163,1.00)}
+
+.about { 
+font-family: 'Bebas Neue', cursive;
+position: relative;
+font-size: 28px;
+top: 15px;
+left: 150px;
+color:rgba(229,102,163,1.00)}
+
+.paragraph {
+font-family: 'Raleway', sans-serif;
+position: relative;
+color:aliceblue;
+font-size: 11px;
+left: 150px;
+top: -15px;
+text-indent: 35px;}
+
+.events {
+	font-family: 'Bebas Neue', sans-serif;
+	top: -320px; 
+	left: -365px;
+	position: relative;
+	font-size: 28px;
+	color:rgba(229,102,163,1.00)
+	}
+
+.jasonisabell {
+	position: relative;
+	margin-right: -250px;
+	top: -550px;
+    right: 300px;
+	height: 500px;
+	float: right;
+	padding: 5px; 
+}
+
+.spork {
+	position: relative;
+	margin-right: -250px;
+	top: -565px;
+    right: -320px;
+	height: 500px;
+	float: right;
+	padding: 5px; 
+}
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+p {
+
+}
+
+
+@media screen{
+}
